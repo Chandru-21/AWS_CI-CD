@@ -1,1 +1,1 @@
-## CI/CD on AWS ECR
+## CI/CD through AWS ECR and AWS EKS
