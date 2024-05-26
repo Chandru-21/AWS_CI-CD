@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: CICD
+  name: cicdfastapi
   labels:
-    app: CICD
+    app: cicdfastapi
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: CICD
+      app: cicdfastapi
   template:
     metadata:
       labels:
-        app: CICD
+        app: cicdfastapi
     spec:
       containers:
         - name: cicdfastapi
