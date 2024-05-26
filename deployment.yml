@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: CICD
+  labels:
+    app: CICD
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: CICD
+  template:
+    metadata:
+      labels:
+        app: CICD
+    spec:
+      containers:
+        - name: cicdfastapi
+          image: 637423514597.dkr.ecr.us-east-2.amazonaws.com/cicdfastapi:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8005
