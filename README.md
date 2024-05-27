@@ -1,10 +1,8 @@
 ## CI/CD through AWS ECR and AWS EKS
 
-### Project Name: **AutoDeploy-EKS**
-
 #### Project Description:
 
-**AutoDeploy-EKS** is a streamlined, automated deployment framework designed to simplify the process of deploying containerized applications in AWS using GitHub Actions, Docker, Amazon Elastic Container Registry (ECR), and Amazon Elastic Kubernetes Service (EKS). This project aims to provide a seamless CI/CD pipeline that ensures efficient and reliable delivery of applications from code to production.
+This project is a streamlined, automated deployment framework designed to simplify the process of deploying containerized applications in AWS using GitHub Actions, Docker, Amazon Elastic Container Registry (ECR), and Amazon Elastic Kubernetes Service (EKS). This project aims to provide a seamless CI/CD pipeline that ensures efficient and reliable delivery of applications from code to production.
 
 #### Key Features:
 
