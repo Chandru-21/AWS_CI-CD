@@ -25,8 +25,8 @@ def generate_predictions(data_input):
     return result
 
 app = FastAPI(
-    title="Loan Prediction App using API - CI CD Jenkins",
-    description = "A Simple CI CD Demo",
+    title="Loan Prediction App ",
+    description = "",
     version='1.0'
 )
 
