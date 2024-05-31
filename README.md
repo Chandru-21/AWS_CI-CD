@@ -1,4 +1,4 @@
-## CI/CD through AWS ECR and AWS EKS
+## Implementing Continuous Integration and Continuous Deployment(CI/CD) with GitHub Actions on AWS ECR and ECS
 
 #### Project Description:
 
